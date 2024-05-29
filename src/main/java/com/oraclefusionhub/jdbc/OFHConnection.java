@@ -180,14 +180,14 @@ public class OFHConnection implements java.sql.Connection {
 			}
 
 			@Override
-			public String getDriverVersion() throws SQLException {
+			public String getDriverVersion() throws SQLException {//edited
 				return null;
 			}
 
 			@Override
 			public int getDriverMajorVersion() {
 				return 0;
-			}
+			}//edited
 
 			@Override
 			public int getDriverMinorVersion() {
