@@ -64,4 +64,4 @@ public class OFHDriverTest {
 		assertTrue("connection should be closed", connection.isClosed());
 	}
 
-}
+}//changed
